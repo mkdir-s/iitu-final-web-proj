@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sights</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+
+    <div class="sights">
+      <div class="container">
+        <header class="header">
+          <div class="header__wrapper">
+            <a class="header__logo" href="index.html">Almaty. <br> <span>city of you.</span></a>
+            <nav class="header-nav">
+              <ul class="header-nav__list">
+                <li class="header-nav__list"><a class="header-nav__list-link" href="#">Sights</a></li>
+                <li class="header-nav__list"><a class="header-nav__list-link" href="#">Events</a></li>
+                <li class="header-nav__list"><a class="header-nav__list-link" href="#">Cafes and restaurants</a></li>
+                <li class="header-nav__list"><a class="header-nav__list-link" href="#">Unusual shops</a></li>
+              </ul>
+            </nav>
+            <div class="header-buttons">
+              <a href="sign-in.html" class="header-buttons__button">Sign in</a>
+              <a href="sign-up.html" class="header-buttons__button">Sign up</a>
+            </div>
+          </div>
+        </header>
+        
+        <div class="sights-bottom">
+          <h1 class="sights-bottom__title">all sights of Almaty</h1>
+          <p class="sights-bottom__subtitle">choose the type of sightseeing presentation</p>
+          <div class="sights-bottom__dropdown dropdown">
+            <button class="sights-bottom__dropdown-button btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Table or Gallery
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" id="sights-table" href="#">Table</a></li>
+              <li><a class="dropdown-item" id="sights-gallery" href="#">Gallery</a></li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <section class="sights-table sights-shown">
+          <div class="container">
+            <div class="table-responsive-sm">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">sight</th>
+                    <th scope="col">description</th>
+                    <th scope="col">expected costs</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="sights-tr">
+                    <th scope="row">1</th>
+                    <td>Medeo</td>
+                    <td class="sights-td">Medeo is famous for its ice rink, which is one of the highest altitude ice rinks in the world.</td>
+                    <td>8.70 usd</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">2</th>
+                    <td>Kok-Tobe</td>
+                    <td class="sights-td">The top of the mountain offers a magnificent view of the city. Tourists can climb to the top by car or cable car.</td>
+                    <td>7.60 usd</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">3</th>
+                    <td>Park of the First President</td>
+                    <td class="sights-td">This park was created in honour of the first president of Kazakhstan, Nursultan Nazarbayev. Here you can enjoy beautiful nature, architectural monuments and memorials.</td>
+                    <td>transport</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">4</th>
+                    <td>Central Park (Gorky Park)</td>
+                    <td class="sights-td">This is a popular place for recreation among locals and tourists. It has amusement rides, a pond with swans, an amphitheatre and other entertainment.</td>
+                    <td>transport</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">5</th>
+                    <td>Central Botanical Garden</td>
+                    <td class="sights-td">It was established in 1932 and is one of the largest botanical gardens in Central Asia. The garden includes a variety of plant species, collections of rare and exotic plants.</td>
+                    <td>3.5 usd</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">6</th>
+                    <td>Big Almaty Lake</td>
+                    <td class="sights-td">Located at an altitude of over 2500 metres above sea level, the lake is surrounded by mountains and offers magnificent scenery. The place is popular among nature lovers and tourists.</td>
+                    <td>transport and eco fees</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">7</th>
+                    <td>Charyn National Park</td>
+                    <td class="sights-td">Famous for its beautiful canyons such as the "Valley of Castles" and "Kurmangazy". Here you can see unique red sandstone formations and enjoy majestic views.</td>
+                    <td>transport and eco fees</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">8</th>
+                    <td>Zailiyskiy Alatau Mountains</td>
+                    <td class="sights-td">These mountains provide excellent opportunities for outdoor activities including hiking, skiing and mountaineering. In winter, the Shymbulak Ski Resort attracts many tourists.</td>
+                    <td>transport and eco fees</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">9</th>
+                    <td>Hot springs in Chunje</td>
+                    <td class="sights-td">This spa place is famous for its hot mineral springs. Visitors come here to enjoy the healing properties of the water and beautiful scenery.</td>
+                    <td>depends on spa</td>
+                  </tr>
+                  <tr class="sights-tr">
+                    <th scope="row">10</th>
+                    <td>Kolsai</td>
+                    <td class="sights-td">Natural place with crystal clear mountain lakes and picturesque scenery. Kolsai Canyon attracts tourists with its beauty and hiking opportunities.</td>
+                    <td>transport and eco fees</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </section>
+        <section class="sights-gallery">
+          <div class="container">
+            
+          </div>
+        </section>
+      </div>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
