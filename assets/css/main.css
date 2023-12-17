@@ -473,6 +473,7 @@ button {
 .events-bottom__title {
   font-size: 32px;
   margin-bottom: 25px;
+  line-height: 130%;
 }
 .events-bottom__subtitle {
   font-size: 19px;
@@ -485,6 +486,24 @@ button {
 }
 .events-bottom__subtitle-link:hover {
   opacity: .7;
+}
+.events__items {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+}
+.events__item {
+  background-color: #eee;
+  color: #111;
+  max-width: 600px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.events__item-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 23px;
 }
 
 .feedback {
@@ -515,4 +534,74 @@ button {
 .feedback__form-button:hover {
   background-color: transparent;
   color: #fff;
+}
+
+.cafes {
+  background-color: #000;
+  height: 100vh;
+}
+.cafes-bottom__items {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.cafes__item {
+  background-color: #eee;
+  color: #000;
+  padding: 15px;
+  border-radius: 20px;
+}
+.cafes__item-title {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.shops {
+  background-color: #000;
+  height: 100vh;
+}
+
+.todos {
+  background-color: #000;
+  min-height: 100vh;
+}
+.todos-bottom {
+  padding-bottom: 5%;
+}
+.todos__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.todos__subtitle {
+  font-size: 20px;
+  opacity: .8;
+  margin-bottom: 40px;
+}
+.todos__form {
+  margin-bottom: 40px;
+}
+.todos__form-input {
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.todos__form-button {
+  background-color: #fff;
+  color: #000;
+  transition: all .4s;
+}
+.todos__form-button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.todos__list-item {
+  width: 70%;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }

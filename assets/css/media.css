@@ -1,4 +1,4 @@
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
   .header__wrapper {
     flex-direction: column;
   }
@@ -15,7 +15,16 @@
     margin: 0 50px;
   }
   .sights__box-close {
-    top: 10%;
+    top: 13%;
+    right: 2%;
+  }
+  .cafes {
+    height: 100%;
+    padding: 5% 0;
+  }
+  .shops {
+    height: 100%;
+    padding: 5% 0;
   }
 }
 
@@ -99,6 +108,18 @@
   }
   .sights__items {
     grid-template-columns: 1fr 1fr;
+  }
+  .feedback__form-textarea {
+    width: 80%;
+  }
+  .cafes-bottom__items {
+    grid-template-columns: 1fr;
+  }
+  .todos__list-item {
+    width: 100%;
+  }
+  .todos__form-input {
+    width: 80%;
   }
 }
 
